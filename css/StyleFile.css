@@ -1,0 +1,1046 @@
+body{
+background-image:url(../img/background1.jpg);
+}
+
+#main-content{
+width:1100px;
+margin:auto;
+}
+
+#upper-box{
+width:1100px;
+}
+
+#logo{
+width:90px;
+float:left;
+padding:0;
+margin:0;
+}
+
+#logo-img{
+width:80px;
+height:120px;
+float:left;
+padding-left:10px;
+}
+
+#right-menu{
+float:left;
+width:990px;
+margin-left:20px;
+height:120px;
+}
+
+#above-line{
+padding-top:30px;
+
+}
+
+#name-text{
+float:left;
+font-family:Teen;
+color:#DD127B;
+font-size:34px;;
+width:170px;
+overflow:hidden;
+}
+
+#name-text a{
+text-decoration:none; 
+color:#DD127B;
+}
+
+#menu{
+font-family: 'Yanone Kaffeesatz', sans-serif;
+font-weight:400;
+font-size:24px;
+color:#999999;
+float:left;
+height:42px;
+margin-left:427px;
+}
+
+#menu a.active{
+color:#DD127B;
+}
+
+#menu ul{  
+list-style-type:none;
+position:relative;
+display:inline-table;
+margin:0px;
+}
+
+#menu ul li {
+padding:7px 2px 0 2px;
+float:left;
+}
+
+#menu ul li a{
+text-decoration:none;
+color: #777777;
+transition: all 0.5s ease;
+
+-webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out; 
+-o-transition: all 0.5s ease-in-out; 
+-ms-transition: all 0.5s ease-in-out; 
+}
+
+#menu ul li a:active{
+color: #DD127B;
+}
+
+#menu ul li a:hover {
+color:#DD127B;
+}
+	
+#menu ul ul{
+display:none;
+}
+
+#menu ul li:hover > ul{
+position:absolute;
+display:inline;
+list-style-type:none;
+left:-340px;
+}
+	
+#menu ul ul li {
+float: left;
+margin:10px auto;
+font-size:20px;
+}
+
+#menu ul ul li a{
+color:#444444;
+text-decoration:none;
+}
+	
+#menu ul ul li a:hover {
+text-decoration:none;
+color:#DD127B;
+}
+
+#line-item{
+width:990px;
+height:2px;
+border:none;
+background-color:#CCCCCC;
+}
+
+#below-line{
+float:left;
+}
+
+#below-line-text{
+font-family: 'Yanone Kaffeesatz', sans-serif;
+font-size:26px;
+color:#777777;
+float:left;
+width:250px;
+}
+
+#button-div{
+width:262px;
+height:245px;
+background-color:#CCCCCC;
+margin:20px 13px 0 0;
+float:left;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+font-size:17px;
+color:#525252;
+text-align:center;
+transition: all 0.5s ease;
+
+-webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out; 
+-o-transition: all 0.5s ease-in-out; 
+-ms-transition: all 0.5s ease-in-out; 
+}
+
+#button-div:hover{
+background-color:#DD127B;
+color:#FFFFFF;
+}
+
+.button-img{
+padding:10px 8px 10px 8px;
+width:246px;
+height:195px;
+}
+
+#footer-bar{
+background-color:#CCCCCC;
+height:25px;
+width:1100px;
+float:left;
+margin:20px 0 15px 8px;
+}
+
+#bottom-name-text{
+margin-left:10px;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+color:#525252;
+line-height:25px;
+float:left;
+}
+
+#left-list{
+margin-left:485px;
+}
+
+#left-list a{
+text-decoration:none;
+}
+
+.below-menu-items{
+display:inline;
+text-decoration:none;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+line-height:25px;
+color:#525252;
+}
+
+.below-menu-items:hover{
+color:#000000;
+}
+
+/*CSS for About*/
+
+#upper-about-box{
+margin:0px 30px 0 110px;
+}
+
+#left-text-box{
+font-family:Calibri;
+padding-top:30px;
+float:left;
+color:#525252;
+}
+
+#right-img-box{
+float:left;
+width:250px;
+height:350px;
+padding-top:50px;
+margin-left:50px;
+}
+
+#big-logo-img{
+width:220px;
+height:350px;
+}
+
+#lower-about-box{
+font-family:Calibri;
+float:right;
+margin:0px 30px 0 110px;
+padding-right:40px;
+color:#525252;
+text-align:justify;
+}
+
+/*CSS Website-Work */
+
+#main-Website-button-div{
+width:354px;
+height:310px;
+float:left;
+margin:10px 14px 10px 0;
+}
+
+#Website-button-div{
+width:354px;
+height:230px;
+background-color:#CCCCCC;
+margin:15px 17px 0 0;
+float:left;
+font-family:Calibri;
+font-size:16px;
+color:#525252;
+text-align:center;
+transition: all 0.5s ease;
+
+-webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out; 
+-o-transition: all 0.5s ease-in-out; 
+-ms-transition: all 0.5s ease-in-out; 
+}
+
+#Website-button-div:hover{
+background-color:#DD127B;
+color:#FFFFFF;
+}
+
+.Website-button-img{
+padding:10px;;
+width:334px;
+height:180px;
+}
+
+#website-button-text{
+width:353px;
+height:80px;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+color:#525252;
+padding-top:10px;
+text-align:justify;
+}
+
+#Website-buttons-bottom{
+margin:20px 0;
+}
+
+/*CSS for Ads */
+
+#first-column{
+width:285px;
+float:left;
+margin-right:10px;
+margin-top:25px;
+margin-left:10px;
+}
+
+#second-column{
+width:500px;
+float:left;
+margin-right:10px;
+margin-top:25px;
+}
+
+#third-column{
+width:285px;
+float:left;
+margin-top:25px;
+}
+
+#first-box{
+background-color:#CCCCCC;
+width:285px;
+height:230px;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+color:#525252;
+text-align:center;
+}
+
+#first-box:hover{
+background-color:#047DC6;
+color:#FFFFFF;
+}
+
+#first-box-img{
+padding:5px;
+width:275px;
+height:195px;
+}
+
+#second-box{
+background-color:#CCCCCC;
+width:285px;
+height:460px;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+color:#525252;
+text-align:center;
+margin-top:10px;
+}
+
+#second-box:hover{
+background-color:#DF107C;
+color:#FFFFFF;
+}
+
+#second-box-img{
+padding:5px;
+width:275px;
+height:420px;
+}
+
+#third-box{
+background-color:#CCCCCC;
+width:285px;
+height:270px;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+color:#525252;
+text-align:center;
+margin-top:10px;
+}
+
+#third-box:hover{
+background-color:#000000;
+color:#FFFFFF;
+}
+
+#third-box-img{
+padding:5px;
+width:275px;
+height:235px;
+}
+
+#fourth-box{
+background-color:#CCCCCC;
+width:500px;
+height:257px;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+color:#525252;
+text-align:center;
+}
+
+#fourth-box:hover{
+background-color:#F9C203;
+color:#FFFFFF;
+}
+
+#fourth-box-img{
+padding:5px;
+width:490px;
+height:222px;
+}
+
+#fifth-box{
+background-color:#CCCCCC;
+width:500px;
+height:425px;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+color:#525252;
+text-align:center;
+margin-top:10px;
+}
+
+#fifth-box:hover{
+background-color:#DE7227;
+color:#FFFFFF;
+}
+
+#fifth-box-img{
+padding:5px;
+width:490px;
+height:390px;
+}
+
+#sixth-box{
+background-color:#CCCCCC;
+width:245px;
+height:370px;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+color:#525252;
+text-align:center;
+margin-top:10px;
+margin-right:5px;
+float:left;
+}
+
+#sixth-box:hover{
+background-color:#067CC6;
+color:#FFFFFF;
+}
+
+#sixth-box-img{
+padding:5px;
+width:235px;
+height:335px;
+}
+
+#seventh-box{
+background-color:#CCCCCC;
+width:245px;
+height:340px;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+color:#525252;
+text-align:center;
+margin-top:10px;
+margin-left:5px;
+float:left;
+}
+
+#seventh-box:hover{
+background-color:#D8261A;
+color:#FFFFFF;
+}
+
+#seventh-box-img{
+padding:5px;
+width:235px;
+height:305px;
+}
+
+#eighth-box{
+background-color:#CCCCCC;
+width:285px;
+height:754px;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+color:#525252;
+text-align:center;
+}
+
+#eighth-box:hover{
+background-color:#03913F;
+color:#FFFFFF;
+}
+
+#eighth-box-img{
+padding:5px;
+width:275px;
+height:716px;
+}
+
+#ninth-box{
+background-color:#CCCCCC;
+width:285px;
+height:275px;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+color:#525252;
+text-align:center;
+margin-top:10px;
+}
+
+#ninth-box:hover{
+background-color:#4B3B6A;
+color:#FFFFFF;
+}
+
+#ninth-box-img{
+padding:5px;
+width:275px;
+height:240px;
+}
+
+/*Brouchers css*/
+
+#broucher-first-column{
+float:left;
+margin:30px 10px 0 10px;
+width:290px;
+}
+
+#broucher-first-column img{
+-webkit-filter: grayscale(0);
+-webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+-ms-transition: all 0.5s ease-in-out;
+transition: all 0.5s ease-in-out;
+}
+
+#broucher-first-column img:hover{
+-webkit-filter: grayscale(1);
+filter: gray;
+-webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+-ms-transition: all 0.5s ease-in-out;
+transition: all 0.5s ease-in-out;
+}
+
+#broucher-second-column{
+float:left;
+margin-top:30px;
+width:790px;
+}
+
+#broucher-second-column img{
+-webkit-filter: grayscale(0);
+-webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+-ms-transition: all 0.5s ease-in-out;
+transition: all 0.5s ease-in-out;
+}
+
+#broucher-second-column img:hover{
+-webkit-filter: grayscale(1);
+filter: gray;
+-webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+-ms-transition: all 0.5s ease-in-out;
+transition: all 0.5s ease-in-out;
+}
+
+#book1-img{
+width:290px;
+height:410px;
+}
+
+#book2-img{
+width:290px;
+height:295px;
+margin-top:10px;
+}
+
+#book3-img{
+width:290px;
+height:350px;
+margin-top:10px;
+}
+
+#book4-img{
+width:365px;
+height:296px;
+margin-right:10px;
+}
+
+#book5-img{
+width:410px;
+height:296px;
+}
+
+#book6-img{
+width:790px;
+height:280px;
+margin-top:10px;
+}
+
+#book7-img{
+width:495px;
+height:285px;
+margin:10px 10px 0 0;
+}
+
+#book8-img{
+width:280px;
+height:285px;
+margin-top:10px;
+}
+
+#book9-img{
+width:450px;
+height:175px;
+margin-top:10px;
+float:left;
+}
+
+#suggest-div{
+width:330px;
+margin:70px 10px 0 0;
+float:left;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+font-weight:400;
+font-size:25px;
+text-align:center;
+color:#666666;
+}
+
+#emailer-first-box{
+background-color:#CCCCCC;
+width:315px;
+height:226px;
+text-align:center;
+}
+
+#emailer-first-box-img{
+padding:5px;
+width:305px;
+height:216px;
+}
+
+#emailer-second-box{
+background-color:#CCCCCC;
+width:315px;
+height:240px;
+text-align:center;
+margin-top:10px;
+}
+
+#emailer-second-box-img{
+padding:5px;
+width:305px;
+height:230px;
+}
+
+#emailer-third-box{
+background-color:#CCCCCC;
+width:315px;
+height:226px;
+text-align:center;
+margin-top:10px;
+}
+
+#emailer-third-box-img{
+padding:5px;
+width:305px;
+height:216px;
+}
+
+#emailer-fourth-box{
+background-color:#CCCCCC;
+width:315px;
+height:235px;
+text-align:center;
+margin-top:10px;
+}
+
+#emailer-fourth-box-img{
+padding:5px;
+width:305px;
+height:225px;
+}
+
+#emailer-fifth-box{
+background-color:#CCCCCC;
+width:420px;
+height:535px;
+text-align:center;
+}
+
+#emailer-fifth-box-img{
+padding:5px;
+width:410px;
+height:525px;
+}
+
+#emailer-sixth-box{
+background-color:#CCCCCC;
+width:420px;
+height:585px;
+text-align:center;
+margin-top:10px;
+}
+
+#emailer-sixth-box-img{
+padding:5px;
+width:410px;
+height:575px;
+}
+
+#emailer-seventh-box{
+background-color:#CCCCCC;
+width:315px;
+height:225px;
+text-align:center;
+}
+
+#emailer-seventh-box-img{
+padding:5px;
+width:305px;
+height:215px;
+}
+
+#emailer-eigth-box{
+background-color:#CCCCCC;
+width:315px;
+height:240px;
+text-align:center;
+margin-top:10px;
+}
+
+#emailer-eigth-box-img{
+padding:5px;
+width:305px;
+height:230px;
+}
+
+#emailer-ninth-box{
+background-color:#CCCCCC;
+width:315px;
+height:227px;
+text-align:center;
+margin-top:10px;
+}
+
+#emailer-ninth-box-img{
+padding:5px;
+width:305px;
+height:217px;
+}
+
+#emailer-tenth-box{
+background-color:#CCCCCC;
+width:315px;
+height:226px;
+text-align:center;
+margin-top:10px;
+}
+
+#emailer-tenth-box-img{
+padding:5px;
+width:305px;
+height:216px;
+}
+
+#logo-first-row{
+width:1100px;
+height:200px;
+}
+
+#logo-first-row  img{
+float:left;
+margin:25px 5px 0 5px;
+border:5px solid #cccccc;
+}
+
+#logo-second-row{
+width:1100px;
+height:200px;
+}
+
+#logo-second-row  img{
+float:left;
+margin:25px 5px 0 5px;
+border:5px solid #cccccc;
+}
+
+#logo-third-row{
+width:1100px;
+height:200px;
+}
+
+#logo-third-row  img{
+float:left;
+margin:25px 5px 0 5px;
+border:5px solid #cccccc;
+}
+
+#logo-fourth-row{
+width:1100px;
+height:200px;
+}
+
+#logo-fourth-row  img{
+float:left;
+margin:25px 5px 0 5px;
+border:5px solid #cccccc;
+}
+
+.testimonial-box{
+width:800px;
+margin-left:220px;
+margin-bottom:40px;
+padding-top:120px;
+font-family:Calibri;
+color:#525252;
+font-size:17px;
+text-align:justify;
+}
+
+.testi-names{
+text-align:right;
+font-weight:bold;
+}
+
+.rotating-item {
+    display: none;
+    position:relative; 
+	top:-648px; 
+	left:208px; 
+	margin-bottom:-712px;
+}
+
+/* contact us page */
+
+.contact-box{
+height:500px;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.contact-box-left{
+float:left;
+height:500px;
+width:545px;
+border-right:3px solid #bbb;
+margin-bottom:30px;
+}
+
+.contact-methods{
+padding-left:120px;
+width:465px;
+padding-top:30px;
+
+}
+
+.contact-pic-holder{
+float:left;
+text-align:center;
+width:50px;
+}
+
+.contact-text{
+width:415px;
+}
+
+.contact-text p{
+padding-left:80px;
+color:#555;
+font-size:20px;
+line-height:28px;
+letter-spacing:1px;
+}
+
+.contact-text a{
+color:#555;
+text-decoration:none;
+transition: all 0.5s ease;
+
+-webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out; 
+-o-transition: all 0.5s ease-in-out; 
+-ms-transition: all 0.5s ease-in-out;
+}
+
+.contact-text a:hover{
+color:#DD127B;
+}
+
+.contact-box-right{
+float:left;
+height:500px;
+width:500px;
+margin-left:50px;
+color:#555;
+margin-bottom:30px;
+margin-top:-10px;
+}
+
+.contact-box-right h2{
+font-weight:500;
+}
+
+.contact-box-right p{
+font-size:18px;
+line-height:5px;
+}
+
+.contact-box-right label{
+font-size:22px;
+font-weight:500;
+line-height:30px;
+}
+
+.contact-box-right input{
+width:350px;
+height:25px;
+background-color:#888888;
+border:none;
+font-size:16px;
+color:#fff;
+outline:none;
+}
+.contact-box-right input:focus{
+background-color:#999999;
+}
+
+.contact-box-right textarea{
+width:348px;
+height:100px;
+background-color:#888888;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+border:none;
+font-size:18px;
+color:#fff;
+outline:none;
+}
+.contact-box-right textarea:focus{
+background-color:#999999;
+}
+
+.contact-box-right select{
+width:355px;
+height:25px;
+background:transparent;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+border:none;
+font-size:18px;
+color:#fff;
+outline:none;
+-webkit-appearance: none;
+}
+.contact-box-right select:focus{
+}
+
+.select-div{
+width:350px;
+height:25px;
+overflow:hidden;
+background:url(../img/select-pointer.gif) no-repeat right #888888;
+}
+
+.contact-box-right option{
+background-color:#999999;
+width:350px;
+}
+
+.send-btn{
+width:70px;
+height:25px;
+-moz-border-radius: 6px;
+-webkit-border-radius: 6px;
+background-color:#DD127B;
+border:none;
+border-bottom:2px solid #333;
+border-right:2px solid #333;
+color:#fff;
+margin-top:20px;
+cursor:pointer;
+font-size:17px;
+font-family:'Yanone Kaffeesatz', sans-serif;
+letter-spacing:1px;
+}
+
+.send-btn:hover{
+border:none;
+}
+
+.loader{
+margin-left:20px;
+margin-top:5px;
+}
+
+/******** site-map ************/
+
+.sitemap-links{
+font-family:'Yanone Kaffeesatz', sans-serif;
+font-size:22px;
+line-height:1.6em;
+}
+
+.sitemap-links li a{
+text-decoration:none;
+color:#333;
+}
+
+.sitemap-links li a:hover{
+color:#DD127B;
+}
+
+.av-first{
+width:450px; 
+height:370px; 
+float:left; 
+margin-left:40px; 
+margin-top:40px;
+}
+
+.av-first img,.av-second img{
+box-shadow:2px 2px 10px #525252;
+}
+
+.av-first p{
+text-align:justify;
+font-family:'Yanone Kaffeesatz', sans-serif;
+font-size:17px;
+color:#525252;
+}
+
+.av-second{
+width:560px; 
+height:370px;
+float:left;   
+margin-left:240px; 
+margin-top:140px;
+}
+
+.av-second p{
+text-align:justify;
+font-family:'Yanone Kaffeesatz', sans-serif;
+font-size:17px;
+color:#525252;
+}
+
+#av-note{
+margin-left:20px;
+margin-bottom:-10px;
+font-family:'Yanone Kaffeesatz', sans-serif;
+font-size:17px;
+color:#525252;
+}
