@@ -319,27 +319,27 @@ margin-top:25px;
 #first-box{
 background-color:#CCCCCC;
 width:285px;
-height:230px;
+height:480px;
 font-family: 'Yanone Kaffeesatz', sans-serif;
 color:#525252;
 text-align:center;
 }
 
 #first-box:hover{
-background-color:#047DC6;
+background-color:#FF6100;
 color:#FFFFFF;
 }
 
 #first-box-img{
 padding:5px;
 width:275px;
-height:195px;
+height:440px;
 }
 
 #second-box{
 background-color:#CCCCCC;
 width:285px;
-height:460px;
+height:450px;
 font-family: 'Yanone Kaffeesatz', sans-serif;
 color:#525252;
 text-align:center;
@@ -347,61 +347,40 @@ margin-top:10px;
 }
 
 #second-box:hover{
-background-color:#DF107C;
+background-color:#0443A4;
 color:#FFFFFF;
 }
 
 #second-box-img{
 padding:5px;
 width:275px;
-height:420px;
+height:410px;
 }
 
 #third-box{
 background-color:#CCCCCC;
-width:285px;
-height:270px;
+width:500px;
+height:262px;
 font-family: 'Yanone Kaffeesatz', sans-serif;
 color:#525252;
 text-align:center;
-margin-top:10px;
 }
 
 #third-box:hover{
-background-color:#000000;
+background-color:#FFE300;
 color:#FFFFFF;
 }
 
 #third-box-img{
 padding:5px;
-width:275px;
-height:235px;
-}
-
-#fourth-box{
-background-color:#CCCCCC;
-width:500px;
-height:257px;
-font-family: 'Yanone Kaffeesatz', sans-serif;
-color:#525252;
-text-align:center;
-}
-
-#fourth-box:hover{
-background-color:#F9C203;
-color:#FFFFFF;
-}
-
-#fourth-box-img{
-padding:5px;
 width:490px;
-height:222px;
+height:227px;
 }
 
 #fifth-box{
 background-color:#CCCCCC;
 width:500px;
-height:425px;
+height:327px;
 font-family: 'Yanone Kaffeesatz', sans-serif;
 color:#525252;
 text-align:center;
@@ -409,20 +388,20 @@ margin-top:10px;
 }
 
 #fifth-box:hover{
-background-color:#DE7227;
+background-color:#1BB000;
 color:#FFFFFF;
 }
 
 #fifth-box-img{
 padding:5px;
 width:490px;
-height:390px;
+height:292px;
 }
 
 #sixth-box{
 background-color:#CCCCCC;
-width:245px;
-height:370px;
+width:500px;
+height:330px;
 font-family: 'Yanone Kaffeesatz', sans-serif;
 color:#525252;
 text-align:center;
@@ -432,14 +411,14 @@ float:left;
 }
 
 #sixth-box:hover{
-background-color:#067CC6;
+background-color:#FF0000;
 color:#FFFFFF;
 }
 
 #sixth-box-img{
 padding:5px;
-width:235px;
-height:335px;
+width:490px;
+height:295px;
 }
 
 #seventh-box{
@@ -468,27 +447,27 @@ height:305px;
 #eighth-box{
 background-color:#CCCCCC;
 width:285px;
-height:754px;
+height:674px;
 font-family: 'Yanone Kaffeesatz', sans-serif;
 color:#525252;
 text-align:center;
 }
 
 #eighth-box:hover{
-background-color:#03913F;
+background-color:#00C571;
 color:#FFFFFF;
 }
 
 #eighth-box-img{
 padding:5px;
 width:275px;
-height:716px;
+height:636px;
 }
 
 #ninth-box{
 background-color:#CCCCCC;
 width:285px;
-height:275px;
+height:255px;
 font-family: 'Yanone Kaffeesatz', sans-serif;
 color:#525252;
 text-align:center;
@@ -496,14 +475,14 @@ margin-top:10px;
 }
 
 #ninth-box:hover{
-background-color:#4B3B6A;
+background-color:#E100BD;
 color:#FFFFFF;
 }
 
 #ninth-box-img{
 padding:5px;
 width:275px;
-height:240px;
+height:220px;
 }
 
 /*Brouchers css*/
